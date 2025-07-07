@@ -56,3 +56,35 @@ This platform is especially tailored for individuals and small to medium-sized e
 2. **Install Dependencies**
    ```bash
    npm install
+Set up Environment Variables
+Create a .env file in the root directory with the following content:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=3000
+Run the App Locally
+npm start
+Access the App
+Open your browser and navigate to:
+
+http://localhost:3000
+
+Project Folder Structure
+csharp
+Copy
+Edit
+ecotrack/
+│
+├── models/             # Mongoose schemas
+├── routes/             # API routing (auth, data input)
+├── config/             # Database connection logic
+├── public/             # Frontend HTML/CSS/JS
+├── .env.example        # Example env file
+├── server.js           # Entry point
+├── package.json        # Dependency manager
+└── README.md
+🔒 Security Note
+User passwords are hashed using bcryptjs and sensitive information is managed securely via environment variables using dotenv.
+
+🧾 License
+MIT License — Feel free to use, modify, and share responsibly.
+
