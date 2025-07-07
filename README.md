@@ -52,7 +52,6 @@ This platform is especially tailored for individuals and small to medium-sized e
      git clone https://github.com/yourusername/ecotrack.git
      cd ecotrack
      ```
-
 2. **Install Dependencies**
    ```bash
    npm install
@@ -65,26 +64,6 @@ Run the App Locally
 npm start
 Access the App
 Open your browser and navigate to:
-
 http://localhost:3000
 
-Project Folder Structure
-csharp
-Copy
-Edit
-ecotrack/
-│
-├── models/             # Mongoose schemas
-├── routes/             # API routing (auth, data input)
-├── config/             # Database connection logic
-├── public/             # Frontend HTML/CSS/JS
-├── .env.example        # Example env file
-├── server.js           # Entry point
-├── package.json        # Dependency manager
-└── README.md
-🔒 Security Note
-User passwords are hashed using bcryptjs and sensitive information is managed securely via environment variables using dotenv.
-
-🧾 License
-MIT License — Feel free to use, modify, and share responsibly.
 
